@@ -1,0 +1,41 @@
+# Copyright (C) 2024  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+
+# Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+# File: C:\Users\beanb\Desktop\ee454\project\multiple.csv
+# Generated on: Thu Dec 12 21:51:35 2024
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.
+
+To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict Preservation
+CLOCK_50,Input,PIN_Y2,2,B2_N0,PIN_Y2,2.5 V,,,,,
+SWITCH_1,Input,PIN_AC28,5,B5_N2,PIN_F7,,,,,,
+UART_RXD,Input,PIN_G12,8,B8_N1,PIN_G12,2.5 V,,,,,
+UART_TXD,Output,PIN_G9,8,B8_N2,PIN_G9,2.5 V,,,,,
+lcd_data[7],Output,PIN_M5,1,B1_N2,PIN_A6,,,,,,
+lcd_data[6],Output,PIN_M3,1,B1_N1,PIN_B7,,,,,,
+lcd_data[5],Output,PIN_K2,1,B1_N1,PIN_A7,,,,,,
+lcd_data[4],Output,PIN_K1,1,B1_N1,PIN_D11,,,,,,
+lcd_data[3],Output,PIN_K7,1,B1_N1,PIN_C11,,,,,,
+lcd_data[2],Output,PIN_L2,1,B1_N2,PIN_H12,,,,,,
+lcd_data[1],Output,PIN_L1,1,B1_N2,PIN_B6,,,,,,
+lcd_data[0],Output,PIN_L3,1,B1_N1,PIN_G11,,,,,,
+lcd_en,Output,PIN_L4,1,B1_N1,PIN_V22,,,,,,
+lcd_rs,Output,PIN_M2,1,B1_N2,PIN_A22,,,,,,
+lcd_rw,Output,PIN_M1,1,B1_N2,PIN_AB15,,,,,,
+reset,Unknown,PIN_M23,6,B6_N2,,2.5 V,,,,,
+LEDG[0],Unknown,PIN_E21,7,B7_N0,,2.5 V,,,,,
+SW[0],Unknown,PIN_AB28,5,B5_N1,,2.5 V,,,,,
+LEDG[1],Unknown,PIN_E22,7,B7_N0,,,,,,,
